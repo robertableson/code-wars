@@ -10,28 +10,34 @@
 //Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
 //### Submitted solution
-
+//```JavaScript
 function even_or_odd(number){
     return number % 2 === 0 ? 'Even' : 'Odd';
 }
+//```
 
 //### Optimized/alternative solutions
 //#### #1
+//```JavaScript
 function even_or_odd(number){
     return number % 2 ? 'Odd' : 'Even'
 }
+//```
+
 
 //#### #2
+//```JavaScript
 const even_or_odd = n => (n % 2) ? 'Odd' : 'Even';
+//```
 
 
-## Sum Arrays
+//## Sum Arrays
 
-### Instructions
-Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+//### Instructions
+//Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
 
-### Submitted solution
-```JavaScript
+//### Submitted solution
+//```JavaScript
 function sum(numbers){
     "use strict";
     // Notes
@@ -47,7 +53,7 @@ function sum(numbers){
 
     return typeof sum === 'number' ? sum : 0;
 }
-```
+//```
 
 
 ## Opposites Attract
