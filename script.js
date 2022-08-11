@@ -1,7 +1,7 @@
-# Code Wars exercises
-This is an array (get it?) of exercises done on [Code Wars](https://www.codewars.com).
+//# Code Wars exercises
+//This is an array (get it?) of exercises done on [Code Wars](https://www.codewars.com).
 
-Source: [Robert Ableson](https://robertableson.com/)
+//Source: [Robert Ableson](https://robertableson.com/)
 
 
 ## Even or Odd
