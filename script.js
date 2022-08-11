@@ -4,29 +4,25 @@
 //Source: [Robert Ableson](https://robertableson.com/)
 
 
-## Even or Odd
+//## Even or Odd
 
-### Instructions
-Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+//### Instructions
+//Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-### Submitted solution
-```JavaScript
+//### Submitted solution
+
 function even_or_odd(number){
     return number % 2 === 0 ? 'Even' : 'Odd';
 }
-```
 
-### Optimized/alternative solutions
-#### #1
-```JavaScript
+//### Optimized/alternative solutions
+//#### #1
 function even_or_odd(number){
     return number % 2 ? 'Odd' : 'Even'
 }
-```
-#### #2
-```JavaScript
+
+//#### #2
 const even_or_odd = n => (n % 2) ? 'Odd' : 'Even';
-```
 
 
 ## Sum Arrays
