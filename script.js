@@ -77,7 +77,7 @@ function lovefunc(flower1, flower2){
 //```
 
 
-## Fake Binary
+/*## Fake Binary
 
 ### Instructions
 Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
@@ -85,7 +85,7 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 Note: input will never be an empty string
 
 ### Submitted solution
-```JavaScript
+```JavaScript*/
 function fakeBin(x){
     // Notes
     // - In a string of digits, if digit < 5, change it for a 0
@@ -101,7 +101,7 @@ function fakeBin(x){
 
     return x;
 }
-```
+//```
 
 ### Optimized/alternative solutions
 #### #1
